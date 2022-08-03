@@ -1,0 +1,9 @@
+{
+  "name": "canvas-playground",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "gsap": "2.0.1",
+    "jquery": "3.3.1"
+  }
+}
