@@ -6,9 +6,10 @@ canvas.height = window.innerHeight;
 
 grid();
 ctx.translate(200, 100);
-// ctx.rotate(45 * (Math.PI / 180));
+ctx.rotate(45 * (Math.PI / 180));
 ctx.fillStyle = '#80c';
 ctx.fillRect(0, 0, 300, 200);
+ctx.rotate(-45 * (Math.PI / 180));
 
 ctx.translate(-150, 100);
 ctx.scale(2, 1);
